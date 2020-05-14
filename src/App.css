@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Molle:400i|Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: rgba(181,51,137,0.3);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  margin: auto;
+  width: 420px;
+  height: 594px;
+  background: url('./notebook.svg') no-repeat center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.notebook-grid {
+  padding: 67px 40px 0 40px;
+  display: grid;
+  grid-template-rows: 58px 370px 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.notebook-grid-items:nth-child(1) {
+  grid-column: span 4;
   display: flex;
-  flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.notebook-grid-items:nth-child(2) {
+  grid-column: span 4;
+}
+
+.notebook-grid-items:nth-child(3) {
+  grid-column: span 4;
+  display: flex;
+	justify-content: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #B53389;
+  font-family: 'Molle', cursive;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+	line-height: 38px;
+  margin: 0;
+  font-family: 'Molle', cursive;
+  font-size: 32px;
+  color: #B53389;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.add-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fullList {
+	font-size: 16px;
+	margin: 0;
+	height: 22px;
+	font-family: "Roboto";
+	text-align: center;
+}
+
+.todo-list {
+  font-family: 'Indie Flower', cursive;
+  color: #1f1d16;
+  margin-top: 10px;
+}
+
+.todo-item {
+	line-height: 25px;
+}
+
+.todo-item > span {
+  cursor: pointer;
+}
+
+.visibility-filters {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.visibility-filters > span {
+  cursor: pointer;
+}
+
+.to-do {
+  color: #24d;
+}
+
+.doing {
+  color: #00d024;
+}
+
+.done {
+  text-decoration: line-through
+}
+
+
+@media(max-width: 415px){
+  .container {
+    max-width: 360px;
+    /* height: 594px; */
   }
-  to {
-    transform: rotate(360deg);
+  .notebook-grid {
+    padding: 28% 9% 0 9%;
+    grid-template-rows: 58px 307px 30px;
   }
 }

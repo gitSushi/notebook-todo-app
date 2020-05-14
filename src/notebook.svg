@@ -1,0 +1,58 @@
+<svg viewBox="0 0 420 594" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <linearGradient id="metal" gradientTransform="rotate(90)">
+        <stop offset="10%" stop-color="#76786d"/>
+        <stop offset="40%" stop-color="#eff7f2"/>
+        <stop offset="85%" stop-color="#545f56"/>
+      </linearGradient>
+      <radialGradient id="shad">
+        <stop offset="60%" stop-color="#7b8354"/>
+        <stop offset="90%" stop-color="#2c4106"/>
+      </radialGradient>
+    </defs>
+    <symbol id="SpiralCircle" viewBox="0 0 420 594">
+      <circle cx="50" cy="50" r="8" stroke-width="1"></circle>
+      <circle cx="50" cy="50" r="7" stroke="#92a6b9" stroke-width="0.9" fill="none"></circle>
+      <path d="m49.5 44 c2 -4, 2 -6, 0 -10 m4 10 c2 -4, 2 -6, 0 -10" stroke="rgba(161, 156, 154, 0.5)" stroke-width="1.5" fill="none"/>
+      <path d="m48 50 v-24 m4 24 v-24" stroke="url('#metal')" stroke-width="2"/>
+    </symbol>
+    <symbol id="page" viewBox="0 0 420 594">
+      <path d="m40 45 h339 v469.4 c0 8, -2 10, -10 10 h-319 c-8 0, -10 -2, -10 -10z"></path>
+    </symbol>
+    <symbol id="lineup" viewBox="0 0 420 594">
+      <rect width="310" height="1" fill="#c5e2ee" />
+    </symbol>
+    <use x="0" y="0" xlink:href="#page" fill="#476408" transform="scale(1.01) rotate(-0.2)"></use>
+    <use x="0" y="0" xlink:href="#page" stroke-width="2" stroke="#c4cfd9" fill="#f2f3f5" transform="rotate(-0.3)"></use>
+    <use x="0" y="0" xlink:href="#page" stroke-width="1.5" stroke="#c4cfd9" fill="#f2f3f5" transform="rotate(0.25)"></use>
+    <use x="0" y="0" xlink:href="#page" stroke-width="1" stroke="#c4cfd9" fill="#f2f3f5"></use>
+    <path d="m40 45 h339 v440 c0 8, -2 10, -10 10 h-64.75 c-8 0, -10 8, -10 10 v9.4 c0 8, -2 10, -10 10 h-234.25 c-8 0, -10 -2, -10 -10z" stroke-width="1" stroke="#c4cfd9" fill="#f2f3f5"/>
+    <path d="m40 45 h339 v440 c0 8, -2 10, -10 10 h-149.5 c-8 0, -10 8, -10 10 v9.4 c0 8, -2 10, -10 10 h-149.5 c-8 0, -10 -2, -10 -10z" stroke-width="1" stroke="#c4cfd9" fill="#f2f3f5"/>
+    <path d="m40 45 h339 v440 c0 8, -2 10, -10 10 h-234.25 c-8 0, -10 8, -10 10 v9.4 c0 8, -2 10, -10 10 h-64.75 c-8 0, -10 -2, -10 -10z" stroke-width="1" stroke="#c4cfd9" fill="#f2f3f5"/>
+    <use x="10" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="40" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="70" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="100" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="130" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="160" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="190" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="220" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="250" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="280" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <use x="310" y="10" xlink:href="#SpiralCircle" stroke="#c4cfd9" fill="url('#shad')"/>
+    <!-- <use x="60" y="125" xlink:href="#lineup"/>
+    <use x="60" y="150" xlink:href="#lineup"/> -->
+    <use x="60" y="175" xlink:href="#lineup"/>
+    <use x="60" y="200" xlink:href="#lineup"/>
+    <use x="60" y="225" xlink:href="#lineup"/>
+    <use x="60" y="250" xlink:href="#lineup"/>
+    <use x="60" y="275" xlink:href="#lineup"/>
+    <use x="60" y="300" xlink:href="#lineup"/>
+    <use x="60" y="325" xlink:href="#lineup"/>
+    <use x="60" y="350" xlink:href="#lineup"/>
+    <use x="60" y="375" xlink:href="#lineup"/>
+    <use x="60" y="400" xlink:href="#lineup"/>
+    <use x="60" y="425" xlink:href="#lineup"/>
+    <use x="60" y="450" xlink:href="#lineup"/>
+    <!-- <use x="60" y="475" xlink:href="#lineup"/> -->
+  </svg>
